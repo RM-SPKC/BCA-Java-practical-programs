@@ -37,7 +37,7 @@ class Traffic extends Frame implements ItemListener
   {
     public void windowClosing(WindowEvent we)
    {
-    dispose();
+    System.exit(0);
    }
   });
  }
