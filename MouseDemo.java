@@ -11,6 +11,7 @@ class MouseDemo extends MouseAdapter
   {
     f=new JFrame();
 	f.setSize(600,600);
+	f.setTitle("Mouse Event Handling");
 	f.setVisible(true);
 	l=new JLabel("",JLabel.CENTER);
 	f.add(l);
